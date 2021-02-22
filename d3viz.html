@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+<script src="https://d3js.org/d3-dispatch.v2.min.js"></script>
+<script src="https://d3js.org/d3-quadtree.v2.min.js"></script>
+<script src="https://d3js.org/d3-timer.v2.min.js"></script>
+<script src="https://d3js.org/d3-force.v2.min.js"></script>
+
+</head>
+
+<body>
+    <canvas id="my-house" width="700" height="700"></canvas>
+    <script>
+        const data = {"nodes":[{"index":0,"radius":0.0,"id":"h2","label":"Lillstuga NV"},{"index":1,"radius":0.0,"id":"h3","label":"Lillstuga SO"},{"index":2,"radius":0.0,"id":"h1","label":"Lillstuga SV"},{"index":3,"radius":0.0,"id":"C","label":"xxx"},{"index":4,"radius":0.3,"id":"B","label":"Tall"},{"index":5,"radius":0.1,"id":"E","label":"Tall"},{"index":6,"radius":0.275,"id":"D","label":"Tall"},{"index":7,"radius":0.19,"id":"G","label":"Tall"},{"index":8,"radius":0.125,"id":"F","label":"Tall"},{"index":9,"radius":0.075,"id":"I","label":"Ek"},{"index":10,"radius":0.1,"id":"H","label":"Ek"},{"index":11,"radius":0.175,"id":"K","label":"Tall"},{"index":12,"radius":0.25,"id":"J","label":"Tall"},{"index":13,"radius":0.2,"id":"L","label":"Tall"},{"index":14,"radius":0.3,"id":"a","label":"Tall"},{"index":15,"radius":0.05,"id":"c","label":"Hushörn NO"},{"index":16,"radius":0.2,"id":"b","label":"Ek"},{"index":17,"radius":0.05,"id":"e","label":"Hushörn SO"},{"index":18,"radius":0.075,"id":"d","label":"Stolpe uteplats"},{"index":19,"radius":0.1,"id":"g","label":"Ek"},{"index":20,"radius":0.2,"id":"f","label":"Tall"},{"index":21,"radius":0.15,"id":"i","label":"Ek"},{"index":22,"radius":0.05,"id":"h","label":"Ek"},{"index":23,"radius":0.1,"id":"k","label":"Tall"},{"index":24,"radius":0.1,"id":"j","label":"Ek"},{"index":25,"radius":0.05,"id":"m","label":"Hushörn NV"},{"index":26,"radius":0.3,"id":"l","label":"Tall"},{"index":27,"radius":0.15,"id":"o","label":"Ek"},{"index":28,"radius":0.3,"id":"n","label":"Tall"},{"index":29,"radius":0.075,"id":"q","label":"Ek"},{"index":30,"radius":0.05,"id":"p","label":"Hushörn SV"},{"index":31,"radius":0.15,"id":"s","label":"Ek"},{"index":32,"radius":0.1,"id":"r","label":"Tall"}],"links":[{"source":4,"label":"B-E","target":5,"distance":6.5},{"source":4,"label":"B-F","target":8,"distance":5.3},{"source":4,"label":"B-m","target":25,"distance":17.7},{"source":6,"label":"D-K","target":11,"distance":3.0},{"source":6,"label":"D-L","target":13,"distance":4.7},{"source":5,"label":"E-F","target":8,"distance":1.9},{"source":5,"label":"E-m","target":25,"distance":16.6},{"source":8,"label":"F-m","target":25,"distance":15.2},{"source":7,"label":"G-B","target":4,"distance":13.0},{"source":7,"label":"G-C","target":3,"distance":10.7},{"source":7,"label":"G-E","target":5,"distance":13.7},{"source":7,"label":"G-F","target":8,"distance":11.9},{"source":7,"label":"G-H","target":10,"distance":3.3},{"source":7,"label":"G-I","target":9,"distance":8.4},{"source":7,"label":"G-m","target":25,"distance":5.7},{"source":10,"label":"H-B","target":4,"distance":11.9},{"source":10,"label":"H-C","target":3,"distance":7.6},{"source":10,"label":"H-I","target":9,"distance":5.6},{"source":9,"label":"I-B","target":4,"distance":15.7},{"source":9,"label":"I-C","target":3,"distance":2.8},{"source":9,"label":"I-F","target":8,"distance":17.4},{"source":9,"label":"I-m","target":25,"distance":12.8},{"source":12,"label":"J-C","target":3,"distance":7.7},{"source":12,"label":"J-G","target":7,"distance":7.0},{"source":12,"label":"J-H","target":10,"distance":6.3},{"source":12,"label":"J-I","target":9,"distance":5.1},{"source":12,"label":"J-c","target":15,"distance":9.3},{"source":12,"label":"J-m","target":25,"distance":9.3},{"source":11,"label":"K-J","target":12,"distance":5.8},{"source":11,"label":"K-L","target":13,"distance":3.3},{"source":11,"label":"K-c","target":15,"distance":10.2},{"source":11,"label":"K-h2","target":0,"distance":6.4},{"source":13,"label":"L-J","target":12,"distance":7.0},{"source":14,"label":"a-b","target":16,"distance":9.3},{"source":16,"label":"b-e","target":17,"distance":6.7},{"source":16,"label":"b-f","target":20,"distance":8.6},{"source":15,"label":"c-a","target":14,"distance":5.8},{"source":15,"label":"c-d","target":18,"distance":2.5},{"source":15,"label":"c-e","target":17,"distance":11.6},{"source":18,"label":"d-a","target":14,"distance":3.4},{"source":18,"label":"d-b","target":16,"distance":9.3},{"source":17,"label":"e-f","target":20,"distance":8.3},{"source":17,"label":"e-g","target":19,"distance":6.1},{"source":19,"label":"g-f","target":20,"distance":5.2},{"source":19,"label":"g-h","target":22,"distance":1.0},{"source":19,"label":"g-i","target":21,"distance":3.1},{"source":19,"label":"g-j","target":24,"distance":2.7},{"source":22,"label":"h-i","target":21,"distance":2.2},{"source":22,"label":"h-j","target":24,"distance":2.3},{"source":2,"label":"h1-D","target":6,"distance":6.2},{"source":2,"label":"h1-K","target":11,"distance":7.3},{"source":2,"label":"h1-L","target":13,"distance":5.2},{"source":2,"label":"h1-a","target":14,"distance":6.5},{"source":2,"label":"h1-c","target":15,"distance":10.7},{"source":2,"label":"h1-d","target":18,"distance":9.0},{"source":2,"label":"h1-h2","target":0,"distance":3.5},{"source":2,"label":"h1-h3","target":1,"distance":4.8},{"source":2,"label":"h1-k","target":23,"distance":3.4},{"source":2,"label":"h1-l","target":26,"distance":5.3},{"source":0,"label":"h2-c","target":15,"distance":12.3},{"source":0,"label":"h2-k","target":23,"distance":5.7},{"source":0,"label":"h2-l","target":26,"distance":5.7},{"source":1,"label":"h3-d","target":18,"distance":12.0},{"source":24,"label":"j-e","target":17,"distance":6.2},{"source":24,"label":"j-i","target":21,"distance":3.5},{"source":23,"label":"k-a","target":14,"distance":3.2},{"source":26,"label":"l-a","target":14,"distance":6.8},{"source":26,"label":"l-c","target":15,"distance":7.0},{"source":26,"label":"l-m","target":25,"distance":12.7},{"source":28,"label":"n-a","target":14,"distance":12.4},{"source":28,"label":"n-h2","target":0,"distance":11.3},{"source":28,"label":"n-l","target":26,"distance":7.2},{"source":28,"label":"n-m","target":25,"distance":9.3},{"source":27,"label":"o-e","target":17,"distance":7.2},{"source":27,"label":"o-g","target":19,"distance":6.3},{"source":27,"label":"o-h","target":22,"distance":6.1},{"source":27,"label":"o-h3","target":1,"distance":3.8},{"source":27,"label":"o-i","target":21,"distance":6.9},{"source":27,"label":"o-p","target":30,"distance":5.4},{"source":27,"label":"o-q","target":29,"distance":3.6},{"source":27,"label":"o-r","target":32,"distance":5.8},{"source":27,"label":"o-s","target":31,"distance":6.2},{"source":32,"label":"r-e","target":17,"distance":12.6},{"source":32,"label":"r-g","target":19,"distance":8.9},{"source":32,"label":"r-h","target":22,"distance":8.1},{"source":32,"label":"r-j","target":24,"distance":7.1},{"source":32,"label":"r-p","target":30,"distance":10.8},{"source":32,"label":"r-q","target":29,"distance":7.6},{"source":32,"label":"r-s","target":31,"distance":4.8},{"source":31,"label":"s-e","target":17,"distance":13.4},{"source":31,"label":"s-g","target":19,"distance":11.8},{"source":31,"label":"s-i","target":21,"distance":11.0},{"source":31,"label":"s-j","target":24,"distance":9.3},{"source":31,"label":"s-p","target":30,"distance":8.6},{"source":31,"label":"s-q","target":29,"distance":5.0}]};
+        
+        const links = data.links; //.map(d => Object.create(d));
+        const nodes = data.nodes; //.map(d => Object.create(d));
+        const canvas = document.getElementById('my-house');
+        const context = canvas.getContext('2d');
+        const width = 700;
+        const height = 700;
+        //const context = DOM.context2d(width, height);
+        function printnodes() {
+            let maxFn = ( max, cur ) => Math.max( max, cur );
+            let minFn = ( min, cur ) => Math.min( min, cur );
+            let minx = nodes.map( el => el.x ).reduce( minFn, Infinity );
+            let miny = nodes.map( el => el.y ).reduce( minFn, Infinity );
+            let maxx = nodes.map( el => el.x ).reduce( maxFn, -Infinity );
+            let maxy = nodes.map( el => el.y ).reduce( maxFn, -Infinity );
+            let scale = Math.min(width / (maxy-miny), height / (maxx-minx));
+            console.debug(minx, miny, maxx, maxy, scale);
+        }
+        function ticked() {
+            context.clearRect(0, 0, width, height);
+            context.save();
+            //context.translate(width / 2, height / 2);
+            let maxFn = ( max, cur ) => Math.max( max, cur );
+            let minFn = ( min, cur ) => Math.min( min, cur );
+            let minx = nodes.map( el => el.x ).reduce( minFn, Infinity );
+            let miny = nodes.map( el => el.y ).reduce( minFn, Infinity );
+            let maxx = nodes.map( el => el.x ).reduce( maxFn, -Infinity );
+            let maxy = nodes.map( el => el.y ).reduce( maxFn, -Infinity );
+            let scale = Math.min(width / (maxy-miny), height / (maxx-minx));
+            context.setTransform(scale,0,0,scale,-minx*scale,-miny*scale);
+            context.beginPath();
+            for (const d of links) {
+              context.moveTo(d.source.x, d.source.y);
+              context.lineTo(d.target.x, d.target.y);
+            }
+            context.strokeStyle = "#aaa";
+            context.stroke();
+            context.beginPath();
+            for (const d of nodes) {
+              context.moveTo(d.x + 3, d.y);
+              context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
+            }
+            context.fill();
+            context.strokeStyle = "#fff";
+            context.stroke();
+            context.restore();
+          }
+        const simulation = d3.forceSimulation(nodes)
+            .force("charge", d3.forceManyBody().strength(-30))
+            .force("link", d3.forceLink(links).strength(1).distance(d => d.distance).iterations(10))
+            .on("tick", ticked)
+            .on("end", printnodes);
+        
+        
+        </script>
+</body>
+
+</html>
