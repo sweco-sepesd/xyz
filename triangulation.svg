@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat.dtd"
+[
+<!ATTLIST g xmlns:fme CDATA #FIXED "http://www.safe.com/fme" >
+<!ATTLIST path fme:id CDATA #IMPLIED fme:id_1 CDATA #IMPLIED fme:id_2 CDATA #IMPLIED fme:_length CDATA #IMPLIED >
+<!ATTLIST ellipse fme:id CDATA #IMPLIED fme:id_1 CDATA #IMPLIED fme:id_2 CDATA #IMPLIED fme:_length CDATA #IMPLIED >
+<!ATTLIST text fme:id CDATA #IMPLIED fme:id_1 CDATA #IMPLIED fme:id_2 CDATA #IMPLIED fme:_length CDATA #IMPLIED >
+<!ATTLIST use fme:id CDATA #IMPLIED fme:id_1 CDATA #IMPLIED fme:id_2 CDATA #IMPLIED fme:_length CDATA #IMPLIED >
+]>
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="-0.460559 -0.460559 37.7658 39.367"><g xmlns:fme="http://www.safe.com/fme" fill="none" stroke="black" stroke-width="0.00460558636795" transform="translate(0,38.4459) scale(1, -1)">
+<g id="edges" stroke="#000" stroke-width="0.05pt" >
+<path fme:id_1="B" fme:id_2="C" fme:_length="15.885867556646527" d="M 19.3017,37.4459 l -15.8663,-0.789183 "/>
+<path fme:id_1="B" fme:id_2="E" fme:_length="6.4777998131847605" d="M 0,31.1649 l 3.43548,5.49176 "/>
+<path fme:id_1="B" fme:id_2="F" fme:_length="5.348810749113193" d="M 1.91768,31.5278 l 1.5178,5.12894 "/>
+<path fme:id_1="B" fme:id_2="H" fme:_length="11.994281177641406" d="M 14.3437,31.6695 l -10.9083,4.98724 "/>
+<path fme:id_1="C" fme:id_2="D" fme:_length="11.872522567111604" d="M 19.3017,37.4459 l 9.65104,-6.91478 "/>
+<path fme:id_1="C" fme:id_2="H" fme:_length="7.612402300519611" d="M 19.3017,37.4459 l -4.95799,-5.77642 "/>
+<path fme:id_1="C" fme:id_2="I" fme:_length="2.705915863305194" d="M 19.3017,37.4459 l -0.319682,-2.68697 "/>
+<path fme:id_1="C" fme:id_2="K" fme:_length="9.972663693862783" d="M 19.3017,37.4459 l 6.80038,-7.29444 "/>
+<path fme:id_1="D" fme:id_2="K" fme:_length="2.8758335997272733" d="M 26.1021,30.1514 l 2.85066,0.379661 "/>
+<path fme:id_1="D" fme:id_2="h2" fme:_length="3.5369421189408325" d="M 28.9528,30.5311 l 2.71352,-2.26865 "/>
+<path fme:id_1="D" fme:id_2="l" fme:_length="4.868614166231604" d="M 28.9528,30.5311 l -2.41835,-4.22552 "/>
+<path fme:id_1="E" fme:id_2="F" fme:_length="1.9516993005224954" d="M 0,31.1649 l 1.91768,0.362812 "/>
+<path fme:id_1="E" fme:id_2="m" fme:_length="16.617047665215505" d="M 0,31.1649 l 14.3604,-8.36085 "/>
+<path fme:id_1="E" fme:id_2="p" fme:_length="23.39627159870851" d="M 0,31.1649 l 11.7055,-20.2575 "/>
+<path fme:id_1="E" fme:id_2="q" fme:_length="25.701388243020567" d="M 0,31.1649 l 10.3642,-23.519 "/>
+<path fme:id_1="E" fme:id_2="s" fme:_length="29.192043767037063" d="M 0,31.1649 l 8.00104,-28.0742 "/>
+<path fme:id_1="F" fme:id_2="G" fme:_length="11.931208794131475" d="M 13.4526,28.4783 l -11.5349,3.04945 "/>
+<path fme:id_1="F" fme:id_2="H" fme:_length="12.426869310823495" d="M 14.3437,31.6695 l -12.4261,-0.141708 "/>
+<path fme:id_1="F" fme:id_2="m" fme:_length="15.19620853878778" d="M 1.91768,31.5278 l 12.4428,-8.72366 "/>
+<path fme:id_1="G" fme:id_2="H" fme:_length="3.313251772134492" d="M 14.3437,31.6695 l -0.891133,-3.19116 "/>
+<path fme:id_1="G" fme:id_2="m" fme:_length="5.746374215138898" d="M 13.4526,28.4783 l 0.907839,-5.67421 "/>
+<path fme:id_1="G" fme:id_2="n" fme:_length="7.094097870184276" d="M 13.4526,28.4783 l 6.9742,1.29876 "/>
+<path fme:id_1="H" fme:id_2="I" fme:_length="5.5730251164939215" d="M 18.982,34.7589 l -4.63831,-3.08945 "/>
+<path fme:id_1="H" fme:id_2="n" fme:_length="6.370627745048858" d="M 14.3437,31.6695 l 6.08307,-1.89241 "/>
+<path fme:id_1="I" fme:id_2="K" fme:_length="8.480807767981824" d="M 26.1021,30.1514 l -7.12006,4.60747 "/>
+<path fme:id_1="I" fme:id_2="n" fme:_length="5.187125579763838" d="M 18.982,34.7589 l 1.44476,-4.98186 "/>
+<path fme:id_1="K" fme:id_2="l" fme:_length="3.8700788486726" d="M 26.1021,30.1514 l 0.432315,-3.84586 "/>
+<path fme:id_1="K" fme:id_2="n" fme:_length="5.6876369160992715" d="M 26.1021,30.1514 l -5.6753,-0.374387 "/>
+<path fme:id_1="a" fme:id_2="b" fme:_length="8.926623775696363" d="M 28.2089,19.4259 l -1.86578,-8.72946 "/>
+<path fme:id_1="a" fme:id_2="d" fme:_length="3.1266245185974157" d="M 28.2089,19.4259 l -2.9781,0.952209 "/>
+<path fme:id_1="a" fme:id_2="h1" fme:_length="6.133008972663149" d="M 28.2089,19.4259 l 2.91743,5.39466 "/>
+<path fme:id_1="a" fme:id_2="h3" fme:_length="8.942550055649964" d="M 28.2089,19.4259 l 7.63583,4.65439 "/>
+<path fme:id_1="a" fme:id_2="k" fme:_length="3.4413267632100135" d="M 28.2089,19.4259 l 0.52219,3.40148 "/>
+<path fme:id_1="b" fme:id_2="c" fme:_length="10.865255863831681" d="M 26.3431,10.6965 l -3.6255,10.2425 "/>
+<path fme:id_1="b" fme:id_2="d" fme:_length="9.745357422012313" d="M 25.2308,20.3782 l 1.11232,-9.68167 "/>
+<path fme:id_1="b" fme:id_2="e" fme:_length="6.494666729612512" d="M 26.3431,10.6965 l -6.28049,-1.65415 "/>
+<path fme:id_1="b" fme:id_2="f" fme:_length="8.595854930097595" d="M 26.3431,10.6965 l -1.5289,-8.45879 "/>
+<path fme:id_1="b" fme:id_2="h3" fme:_length="16.41365095081468" d="M 26.3431,10.6965 l 9.50161,13.3838 "/>
+<path fme:id_1="c" fme:id_2="d" fme:_length="2.5750000000372064" d="M 25.2308,20.3782 l -2.51318,0.560866 "/>
+<path fme:id_1="c" fme:id_2="e" fme:_length="12.189340817180888" d="M 20.0626,9.04234 l 2.65499,11.8967 "/>
+<path fme:id_1="c" fme:id_2="l" fme:_length="6.5854549171552055" d="M 26.5344,26.3056 l -3.81684,-5.36656 "/>
+<path fme:id_1="c" fme:id_2="m" fme:_length="8.562725336381053" d="M 14.3604,22.8041 l 8.35714,-1.86507 "/>
+<path fme:id_1="c" fme:id_2="n" fme:_length="9.13008500547626" d="M 20.4268,29.7771 l 2.29078,-8.83803 "/>
+<path fme:id_1="d" fme:id_2="k" fme:_length="4.2721123286606995" d="M 25.2308,20.3782 l 3.50029,2.44927 "/>
+<path fme:id_1="d" fme:id_2="l" fme:_length="6.0690955559823285" d="M 25.2308,20.3782 l 1.30366,5.92743 "/>
+<path fme:id_1="e" fme:id_2="f" fme:_length="8.299443227079278" d="M 24.8142,2.23769 l -4.75158,6.80465 "/>
+<path fme:id_1="e" fme:id_2="g" fme:_length="5.993044051648818" d="M 19.6681,3.06229 l 0.394488,5.98005 "/>
+<path fme:id_1="e" fme:id_2="j" fme:_length="5.97198809912115" d="M 17.1061,3.85354 l 2.95653,5.1888 "/>
+<path fme:id_1="e" fme:id_2="m" fme:_length="14.89631815674126" d="M 14.3604,22.8041 l 5.70215,-13.7617 "/>
+<path fme:id_1="e" fme:id_2="o" fme:_length="7.250000000108278" d="M 13.5826,5.79087 l 6.48001,3.25146 "/>
+<path fme:id_1="e" fme:id_2="p" fme:_length="8.56272532660971" d="M 11.7055,10.9074 l 8.35714,-1.86507 "/>
+<path fme:id_1="f" fme:id_2="g" fme:_length="5.211719457194758" d="M 19.6681,3.06229 l 5.14607,-0.824599 "/>
+<path fme:id_1="f" fme:id_2="h3" fme:_length="24.469841137323257" d="M 24.8142,2.23769 l 11.0305,21.8426 "/>
+<path fme:id_1="f" fme:id_2="i" fme:_length="6.46848396456558" d="M 18.582,0.50518 l 6.23215,1.73251 "/>
+<path fme:id_1="g" fme:id_2="h" fme:_length="0.9612425158363681" d="M 18.8584,2.54429 l 0.809732,0.517998 "/>
+<path fme:id_1="g" fme:id_2="i" fme:_length="2.7781975928199114" d="M 18.582,0.50518 l 1.08608,2.55711 "/>
+<path fme:id_1="g" fme:id_2="j" fme:_length="2.6814392322241942" d="M 17.1061,3.85354 l 2.56204,-0.791251 "/>
+<path fme:id_1="h" fme:id_2="i" fme:_length="2.057753902896724" d="M 18.582,0.50518 l 0.276346,2.03911 "/>
+<path fme:id_1="h" fme:id_2="j" fme:_length="2.1873975744951344" d="M 17.1061,3.85354 l 1.75231,-1.30925 "/>
+<path fme:id_1="h1" fme:id_2="h2" fme:_length="3.483940507948561" d="M 31.6663,28.2624 l -0.539993,-3.44184 "/>
+<path fme:id_1="h1" fme:id_2="h3" fme:_length="4.776113506683031" d="M 31.1263,24.8206 l 4.7184,-0.740274 "/>
+<path fme:id_1="h1" fme:id_2="k" fme:_length="3.116083312668343" d="M 31.1263,24.8206 l -2.39524,-1.99319 "/>
+<path fme:id_1="h1" fme:id_2="l" fme:_length="4.826015665097372" d="M 31.1263,24.8206 l -4.59187,1.48497 "/>
+<path fme:id_1="h2" fme:id_2="h3" fme:_length="5.911776526122915" d="M 31.6663,28.2624 l 4.1784,-4.18211 "/>
+<path fme:id_1="h2" fme:id_2="l" fme:_length="5.492299823807633" d="M 31.6663,28.2624 l -5.13186,-1.95687 "/>
+<path fme:id_1="i" fme:id_2="j" fme:_length="3.659233199237315" d="M 17.1061,3.85354 l 1.47596,-3.34836 "/>
+<path fme:id_1="i" fme:id_2="r" fme:_length="7.249636482922278" d="M 18.582,0.50518 l -7.23201,-0.50518 "/>
+<path fme:id_1="j" fme:id_2="o" fme:_length="4.0209667662329345" d="M 17.1061,3.85354 l -3.52348,1.93733 "/>
+<path fme:id_1="j" fme:id_2="r" fme:_length="6.92689976269732" d="M 17.1061,3.85354 l -5.75605,-3.85354 "/>
+<path fme:id_1="k" fme:id_2="l" fme:_length="4.113728927966861" d="M 26.5344,26.3056 l 2.19663,-3.47816 "/>
+<path fme:id_1="l" fme:id_2="n" fme:_length="7.02524596347576" d="M 20.4268,29.7771 l 6.10762,-3.47147 "/>
+<path fme:id_1="m" fme:id_2="n" fme:_length="9.242454894476657" d="M 20.4268,29.7771 l -6.06636,-6.97296 "/>
+<path fme:id_1="m" fme:id_2="p" fme:_length="12.189340815000214" d="M 11.7055,10.9074 l 2.65499,11.8967 "/>
+<path fme:id_1="o" fme:id_2="p" fme:_length="5.450000000115394" d="M 13.5826,5.79087 l -1.87713,5.11653 "/>
+<path fme:id_1="o" fme:id_2="q" fme:_length="3.7147309263296044" d="M 10.3642,7.64591 l 3.2184,-1.85503 "/>
+<path fme:id_1="o" fme:id_2="r" fme:_length="6.2063359059520655" d="M 13.5826,5.79087 l -2.23257,-5.79087 "/>
+<path fme:id_1="o" fme:id_2="s" fme:_length="6.20035107799317" d="M 8.00104,3.09077 l 5.58156,2.7001 "/>
+<path fme:id_1="p" fme:id_2="q" fme:_length="3.5265185211096757" d="M 10.3642,7.64591 l 1.34126,3.26149 "/>
+<path fme:id_1="q" fme:id_2="s" fme:_length="5.131648126560836" d="M 8.00104,3.09077 l 2.36316,4.55514 "/>
+<path fme:id_1="r" fme:id_2="s" fme:_length="4.557255202121627" d="M 8.00104,3.09077 l 3.34899,-3.09077 "/>
+</g><g id="nodes" font-family="helvetica" stroke-width="0.05">
+<text fme:id="j" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 17.1061 3.85354) translate(0,7.70708) scale(1, -1)" x="17.1061" y="3.85354"><![CDATA[j]]></text>
+<text fme:id="a" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 28.2089 19.4259) translate(0,38.8519) scale(1, -1)" x="28.2089" y="19.4259"><![CDATA[a]]></text>
+<text fme:id="b" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 26.3431 10.6965) translate(0,21.393) scale(1, -1)" x="26.3431" y="10.6965"><![CDATA[b]]></text>
+<text fme:id="d" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 25.2308 20.3782) translate(0,40.7563) scale(1, -1)" x="25.2308" y="20.3782"><![CDATA[d]]></text>
+<text fme:id="c" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 22.7176 20.939) translate(0,41.878) scale(1, -1)" x="22.7176" y="20.939"><![CDATA[c]]></text>
+<text fme:id="e" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 20.0626 9.04234) translate(0,18.0847) scale(1, -1)" x="20.0626" y="9.04234"><![CDATA[e]]></text>
+<text fme:id="m" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 14.3604 22.8041) translate(0,45.6082) scale(1, -1)" x="14.3604" y="22.8041"><![CDATA[m]]></text>
+<text fme:id="p" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 11.7055 10.9074) translate(0,21.8148) scale(1, -1)" x="11.7055" y="10.9074"><![CDATA[p]]></text>
+<text fme:id="f" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 24.8142 2.23769) translate(0,4.47538) scale(1, -1)" x="24.8142" y="2.23769"><![CDATA[f]]></text>
+<text fme:id="g" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 19.6681 3.06229) translate(0,6.12458) scale(1, -1)" x="19.6681" y="3.06229"><![CDATA[g]]></text>
+<text fme:id="h" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 18.8584 2.54429) translate(0,5.08859) scale(1, -1)" x="18.8584" y="2.54429"><![CDATA[h]]></text>
+<text fme:id="i" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 18.582 0.50518) translate(0,1.01036) scale(1, -1)" x="18.582" y="0.50518"><![CDATA[i]]></text>
+<text fme:id="k" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 28.7311 22.8274) translate(0,45.6548) scale(1, -1)" x="28.7311" y="22.8274"><![CDATA[k]]></text>
+<text fme:id="l" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 26.5344 26.3056) translate(0,52.6112) scale(1, -1)" x="26.5344" y="26.3056"><![CDATA[l]]></text>
+<text fme:id="n" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 20.4268 29.7771) translate(0,59.5541) scale(1, -1)" x="20.4268" y="29.7771"><![CDATA[n]]></text>
+<text fme:id="h1" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 31.1263 24.8206) translate(0,49.6412) scale(1, -1)" x="31.1263" y="24.8206"><![CDATA[h1]]></text>
+<text fme:id="h2" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 31.6663 28.2624) translate(0,56.5249) scale(1, -1)" x="31.6663" y="28.2624"><![CDATA[h2]]></text>
+<text fme:id="h3" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 35.8447 24.0803) translate(0,48.1607) scale(1, -1)" x="35.8447" y="24.0803"><![CDATA[h3]]></text>
+<text fme:id="o" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 13.5826 5.79087) translate(0,11.5817) scale(1, -1)" x="13.5826" y="5.79087"><![CDATA[o]]></text>
+<text fme:id="q" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 10.3642 7.64591) translate(0,15.2918) scale(1, -1)" x="10.3642" y="7.64591"><![CDATA[q]]></text>
+<text fme:id="r" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 11.35 0) translate(0,0) scale(1, -1)" x="11.35" y="0"><![CDATA[r]]></text>
+<text fme:id="s" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 8.00104 3.09077) translate(0,6.18154) scale(1, -1)" x="8.00104" y="3.09077"><![CDATA[s]]></text>
+<text fme:id="B" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 3.43548 36.6567) translate(0,73.3134) scale(1, -1)" x="3.43548" y="36.6567"><![CDATA[B]]></text>
+<text fme:id="C" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 19.3017 37.4459) translate(0,74.8918) scale(1, -1)" x="19.3017" y="37.4459"><![CDATA[C]]></text>
+<text fme:id="D" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 28.9528 30.5311) translate(0,61.0622) scale(1, -1)" x="28.9528" y="30.5311"><![CDATA[D]]></text>
+<text fme:id="E" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 0 31.1649) translate(0,62.3299) scale(1, -1)" x="0" y="31.1649"><![CDATA[E]]></text>
+<text fme:id="F" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 1.91768 31.5278) translate(0,63.0555) scale(1, -1)" x="1.91768" y="31.5278"><![CDATA[F]]></text>
+<text fme:id="G" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 13.4526 28.4783) translate(0,56.9566) scale(1, -1)" x="13.4526" y="28.4783"><![CDATA[G]]></text>
+<text fme:id="H" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 14.3437 31.6695) translate(0,63.3389) scale(1, -1)" x="14.3437" y="31.6695"><![CDATA[H]]></text>
+<text fme:id="I" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 18.982 34.7589) translate(0,69.5178) scale(1, -1)" x="18.982" y="34.7589"><![CDATA[I]]></text>
+<text fme:id="K" fill="black"  stroke="#fff" font-size="1.5" transform="rotate(0.00 26.1021 30.1514) translate(0,60.3029) scale(1, -1)" x="26.1021" y="30.1514"><![CDATA[K]]></text>
+</g></g></svg>
